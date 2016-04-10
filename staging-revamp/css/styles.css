@@ -10,3 +10,16 @@ nav {
 ul {
   margin: 0 auto;
 }
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
