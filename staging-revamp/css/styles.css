@@ -1,0 +1,12 @@
+body {
+  background: black url("../img/background2.jpg") no-repeat fixed center center / cover ;
+  height:100%;
+}
+
+nav {
+  background: none;
+}
+
+ul {
+  margin: 0 auto;
+}
