@@ -2,11 +2,31 @@
 <html>
 <head>
   <title>Ryan Decarlo</title>
+  <!-- MaterializeCSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Flickity -->
+  <link rel="stylesheet" type="text/css" href="css/flickity.css">
+  <!-- Custom Styles -->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+  <nav id="mobile-nav" class="hide-on-med-and-up">
+    <div class="nav-wrapper">
+      <a href="#" data-activates="side-bar" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="side-nav" id="side-bar">
+        <li><a href="index.html">NEWS</a></li>
+        <li><a href="work.html">ALL WORK</a></li>
+        <li><a href="#!">WHAT I DO</a></li>
+        <li><a href="#!">SHOWREELS</a></li>
+        <li><a href="#!">BIO</a></li>
+        <li><a href="#!">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
   <header>
     <div class="row">
       <div class="col s12 center-align">
@@ -14,7 +34,7 @@
         <a href="index.html"><img src="img/logo2.png" alt="Ryan Decarlo"></a>
         <div id="navbar" class="row">
           <div class="col s8 offset-s2">
-            <nav class="z-depth-0">
+            <nav id="desktop-nav" class="z-depth-0 hide-on-small-only">
               <p>
                 <a href="index.html">NEWS</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="work.html">ALL WORK</a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -22,7 +42,7 @@
                 <a href="#!">SHOWREELS</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="#!">BIO</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="#!">CONTACT</a>
-              </a>
+              </p>
             </nav>
             <hr>
           </div>
@@ -35,24 +55,27 @@
       <div class="col s8 offset-s2">
         <div id="news">
           <p class="center">LATEST WORK AND NEWS</p>
+          <br />
+          <br />
+          <br />
           <div class="slider">
             <ul class="slides">
-              <li>
-                <img src="img/universal-dark.jpg">
+              <li class="work-and-news-slider" >
                 <div class="caption center-align">
-                  <h3>RYAN WORKS WITH UNIVERSAL FOR "UNIVERSAL DARK"</h3>
-                </div>
+                <h5>RYAN WORKS WITH UNIVERSAL FOR "UNIVERSAL DARK"</h5>
+              </div>
+                <img src="img/universal-dark.jpg">
               </li>
-              <li>
+              <li class="work-and-news-slider">
                 <img src="img/kanye.jpg"> <!-- random image -->
-                <div class="caption left-align">
-                  <h3>RYAN DESIGNS MTV LIVE CAMPAIGN</h3>
+                <div class="caption center-align">
+                  <h5>RYAN DESIGNS MTV LIVE CAMPAIGN</h5>
                 </div>
               </li>
-              <li>
+              <li class="work-and-news-slider">
                 <img src="img/flying-woman.jpg"> <!-- random image -->
-                <div class="caption right-align">
-                  <h3>RYAN GETS FEATURED IN COMPUTER ART MAGAZINE</h3>
+                <div class="caption center-align">
+                  <h5>RYAN GETS FEATURED IN COMPUTER ART MAGAZINE</h5>
                 </div>
               </li>
             </ul>
@@ -65,8 +88,13 @@
 
   </footer>
 
+  <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- MaterializeCSS js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <!-- Flickity -->
+  <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+  <!-- Custom Scripts -->
   <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

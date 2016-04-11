@@ -1,9 +1,19 @@
+/* Styles for Ryan Decarlo */
+
 body {
   background: black url("../img/background2.jpg") no-repeat fixed center center / cover ;
   height:100%;
 }
 
-nav {
+p, h1, h2, h3, h4, h5, h6, .capabilities-caption, span {
+  color: white;
+}
+
+#desktop-nav {
+  background: none;
+}
+
+#mobile-nav {
   background: none;
 }
 
@@ -20,6 +30,51 @@ a:link, a:visited, a:hover, a:active {
   margin-bottom: 0px;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  color: white;
+.work-and-news-slider, .capabilities-imgs, .white-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+ .slider .slides {
+  background-color: transparent;
+ }
+
+ .slider .slides li .caption {
+  top: -20%;
+}
+
+.slider .slides li {
+  overflow: visible;
+}
+
+#side-bar {
+  background-color: #101010;
+}
+
+
+nav ul a:hover {
+  background-color: black;
+}
+
+nav ul li.active {
+  background-color: black;
+}
+
+#all-work-gallery {
+  height: 500px;
+  overflow: scroll;
+}
+
+.modal {
+  background-color: #000000;
+}
+
+.modal .modal-footer {
+  background-color: #000000;
+}
+
+.modal.bottom-sheet {
+  min-height: 75%;
+  max-height: 75%;
 }
