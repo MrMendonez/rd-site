@@ -21,9 +21,14 @@ ul {
   margin: 0 auto;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited {
   text-decoration: none;
   color: white;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: #CA1F26;
 }
 
 .no-margin-bottom {
@@ -77,4 +82,12 @@ nav ul li.active {
 .modal.bottom-sheet {
   min-height: 75%;
   max-height: 75%;
+}
+
+#ninja-slider {
+    background: black;
+}
+
+.modal {
+  opacity: 0.5;
 }
